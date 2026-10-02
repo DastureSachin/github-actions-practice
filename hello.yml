@@ -13,5 +13,5 @@ jobs:
        uses: actions/checkout@v4
 
       -name: Say Hello
-       run: echo "Hello From GitHub Actions! Day 40 "
+       run: echo "Hello From GitHub Actions! Day 40"
 
