@@ -15,3 +15,15 @@ jobs:
       -name: Say Hello
        run: echo "Hello From GitHub Actions! Day 40"
 
+       -name: Show Date and time 
+       run: date
+
+       -name: Show branch name 
+       run: echo "Branch: ${{ github.ref_name }}"
+
+       -name: list repository files 
+       run: ls -la
+
+       -name: Show operating system
+       run: uname -a 
+
