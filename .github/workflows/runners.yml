@@ -1,8 +1,7 @@
 name: github runner demo
 
 on:
-  workflow_dispatch: 
-
+  workflow_dispatch:
 
 jobs:
   ubuntu-job:
