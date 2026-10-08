@@ -1,0 +1,11 @@
+name: Reusable Build
+
+on:
+  workflow_call: 
+
+input:
+  app_name:
+    description: "Name of the application"
+    type: string
+    required: true
+    
